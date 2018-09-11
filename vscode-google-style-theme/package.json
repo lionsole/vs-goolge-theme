@@ -1,0 +1,22 @@
+{
+    "name": "vscode-google-style-theme",
+    "displayName": "vscode-google-style-theme",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "kaito",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "google-style-theme",
+                "uiTheme": "vs",
+                "path": "./themes/google-style-theme-color-theme.json"
+            }
+        ]
+    }
+}
