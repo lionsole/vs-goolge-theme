@@ -1,0 +1,23 @@
+{
+  "name": "vscode-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcommit": "cp -r vscode-google-style-theme /Users/tan/.vscode/extensions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tan612/self-use-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tan612/self-use-theme/issues"
+  },
+  "homepage": "https://github.com/tan612/self-use-theme#readme",
+  "dependencies": {
+    "husky": "^0.14.3"
+  }
+}
